@@ -26,15 +26,15 @@ class ToDoViewController: UIViewController,UINavigationControllerDelegate,UITabl
         
         // Do any additional setup after loading the view.
     }
-    
+//  セルの数を決めるメソッド
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textArray.count
     }
-    
+//  セルのセクション数を決めるメソッド
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-    
+//    セルを構築する際に呼ばれるメソッド
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = TodotableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.selectionStyle = .none
@@ -43,7 +43,7 @@ class ToDoViewController: UIViewController,UINavigationControllerDelegate,UITabl
         
         return cell
     }
-    
+//    セルがタップされた時に呼ばれるメソッド
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //        タップした時にその配列の番号の中身を取り出して、値を渡す
         let nextVC = storyboard?.instantiateViewController(identifier: "next") as! ListViewController
@@ -52,11 +52,11 @@ class ToDoViewController: UIViewController,UINavigationControllerDelegate,UITabl
         
         navigationController?.pushViewController(nextVC, animated: true)
     }
-    
+//    セルの高さを決めるメソッド
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return view.frame.size.height/6
     }
-    
+//    UITextFieldすなわちTodoTextの入力後に入力用キーボードを閉じる処理
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         
