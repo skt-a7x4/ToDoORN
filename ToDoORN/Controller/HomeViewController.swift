@@ -1,22 +1,23 @@
 //
-//  ProfileViewController.swift
+//  HomeViewController.swift
 //  ToDoORN
 //
-//  Created by 酒匂竜也 on 2022/05/12.
+//  Created by 酒匂竜也 on 2022/05/16.
 //
 
 import UIKit
-import Firebase
-import FirebaseAuth
-import FirebaseFirestoreSwift
-import Photos
 
-class ProfileViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = true
     }
     
 

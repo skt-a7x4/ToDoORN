@@ -59,7 +59,7 @@ class ToDoViewController: UIViewController,UINavigationControllerDelegate,UITabl
 //    UITextFieldすなわちTodoTextの入力後に入力用キーボードを閉じる処理
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
-        
+        textArray.append(TodoText.text!)
         TodoText.resignFirstResponder()
         TodoText.text = ""
         TodotableView.reloadData()
@@ -68,7 +68,7 @@ class ToDoViewController: UIViewController,UINavigationControllerDelegate,UITabl
     }
     
     @IBAction func DoneButton(_ sender: Any) {
-        textArray.append(TodoText.text!)
+        
         
     }
     /*

@@ -9,16 +9,15 @@ import UIKit
 import Lottie
 import Firebase
 import FirebaseAuth
-import Nuke
 import SnapKit
 
 
 class ViewController: UIViewController,UIScrollViewDelegate {
-
+    
     @IBOutlet weak var ScrollView: UIScrollView!
     //    アニメーションの変数と表示される言葉
-        var  AnimationArray = ["1","2","3","4","5"]
-        var AnimationStringArray = ["あなたの投稿で観光地や地元を盛り上げよう","楽しい、綺麗な夜景や背景をみんなで共有","いいなぁと思った場所にはどんどん行ってみよう","あなたの投稿が輪を広げる","さぁ登録して始めよう！"]
+    var  AnimationArray = ["1","2","3","4","5"]
+    var AnimationStringArray = ["左にスワイプ!!","あなただけのToDoListで","充実した一日になるように","今日のTodoをどんどん書き込もう","さぁオリジナルのToDoListにしよう"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,13 +43,13 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         super.viewWillAppear(animated)
         
         self.navigationController?.isNavigationBarHidden = true
-       
-//        登録がなかったらプロフィール作成画面へあればそのまま次へ
-//        if Auth.auth().currentUser!.uid != nil {
-//
-//            performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
-//
-//        }
+        
+        //        登録がなかったらプロフィール作成画面へあればそのまま次へ
+        //        if Auth.auth().currentUser!.uid != nil {
+        //
+        //            performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+        //
+        //        }
         
     }
     
