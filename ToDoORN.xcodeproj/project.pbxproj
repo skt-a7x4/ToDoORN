@@ -10,9 +10,10 @@
 		4F0358EA282D489900436AF6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0358E9282D489900436AF6 /* ProfileViewController.swift */; };
 		4F0358EC282D48B300436AF6 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0358EB282D48B300436AF6 /* ToDoViewController.swift */; };
 		4F0358EE282D574700436AF6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0358ED282D574700436AF6 /* ListViewController.swift */; };
+		4F11BF06283A373F00E8A7C6 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11BF04283A373F00E8A7C6 /* EventViewController.swift */; };
+		4F11BF09283A392A00E8A7C6 /* EventCalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11BF08283A392A00E8A7C6 /* EventCalendarTableViewCell.swift */; };
 		4F432437282D3E0A0010920A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F432436282D3E0A0010920A /* AppDelegate.swift */; };
 		4F432439282D3E0A0010920A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F432438282D3E0A0010920A /* SceneDelegate.swift */; };
-		4F43243B282D3E0A0010920A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F43243A282D3E0A0010920A /* ViewController.swift */; };
 		4F43243E282D3E0A0010920A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F43243C282D3E0A0010920A /* Main.storyboard */; };
 		4F432441282D3E0A0010920A /* ToDoORN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F43243F282D3E0A0010920A /* ToDoORN.xcdatamodeld */; };
 		4F432443282D3E0C0010920A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F432442282D3E0C0010920A /* Assets.xcassets */; };
@@ -21,6 +22,10 @@
 		4F47CDDF28310BFB001B4161 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */; };
 		4F47CDE128313705001B4161 /* NWModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDE028313705001B4161 /* NWModel.swift */; };
 		4F47CDE5283155B3001B4161 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDE4283155B3001B4161 /* HomeViewController.swift */; };
+		4F77B9A828377FDD0007A03B /* CalendarExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77B9A728377FDD0007A03B /* CalendarExtention.swift */; };
+		4F88C26328374D4F002A1541 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F88C26228374D4F002A1541 /* CalendarModel.swift */; };
+		4FB4682B283543EA005BE3F1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4682A283543EA005BE3F1 /* CalendarViewController.swift */; };
+		4FB4682D283549CB005BE3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4682C283549CA005BE3F1 /* ViewController.swift */; };
 		4FBA2F93282D73EB0060C7EA /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA2F8E282D73E80060C7EA /* 2.json */; };
 		4FBA2F94282D73EB0060C7EA /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA2F8F282D73E80060C7EA /* 4.json */; };
 		4FBA2F95282D73EB0060C7EA /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA2F90282D73E90060C7EA /* 1.json */; };
@@ -35,10 +40,11 @@
 		4F0358E9282D489900436AF6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4F0358EB282D48B300436AF6 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		4F0358ED282D574700436AF6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		4F11BF04283A373F00E8A7C6 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		4F11BF08283A392A00E8A7C6 /* EventCalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarTableViewCell.swift; sourceTree = "<group>"; };
 		4F432433282D3E0A0010920A /* ToDoORN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoORN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F432436282D3E0A0010920A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F432438282D3E0A0010920A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F43243A282D3E0A0010920A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F43243D282D3E0A0010920A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F432440282D3E0A0010920A /* ToDoORN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoORN.xcdatamodel; sourceTree = "<group>"; };
 		4F432442282D3E0C0010920A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +54,10 @@
 		4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		4F47CDE028313705001B4161 /* NWModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWModel.swift; sourceTree = "<group>"; };
 		4F47CDE4283155B3001B4161 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F77B9A728377FDD0007A03B /* CalendarExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtention.swift; sourceTree = "<group>"; };
+		4F88C26228374D4F002A1541 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		4FB4682A283543EA005BE3F1 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		4FB4682C283549CA005BE3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FBA2F8E282D73E80060C7EA /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
 		4FBA2F8F282D73E80060C7EA /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		4FBA2F90282D73E90060C7EA /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
@@ -83,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				4F47CDE028313705001B4161 /* NWModel.swift */,
+				4F88C26228374D4F002A1541 /* CalendarModel.swift */,
+				4F77B9A728377FDD0007A03B /* CalendarExtention.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -90,13 +102,16 @@
 		4F0358E8282D432400436AF6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4F43243A282D3E0A0010920A /* ViewController.swift */,
 				4F0358E9282D489900436AF6 /* ProfileViewController.swift */,
 				4F0358EB282D48B300436AF6 /* ToDoViewController.swift */,
 				4F0358ED282D574700436AF6 /* ListViewController.swift */,
 				4F47CDDC28310BE0001B4161 /* NewsListViewController.swift */,
 				4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */,
 				4F47CDE4283155B3001B4161 /* HomeViewController.swift */,
+				4FB4682A283543EA005BE3F1 /* CalendarViewController.swift */,
+				4FB4682C283549CA005BE3F1 /* ViewController.swift */,
+				4F11BF04283A373F00E8A7C6 /* EventViewController.swift */,
+				4F11BF08283A392A00E8A7C6 /* EventCalendarTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,11 +294,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F47CDE128313705001B4161 /* NWModel.swift in Sources */,
-				4F43243B282D3E0A0010920A /* ViewController.swift in Sources */,
 				4F432441282D3E0A0010920A /* ToDoORN.xcdatamodeld in Sources */,
+				4F88C26328374D4F002A1541 /* CalendarModel.swift in Sources */,
 				4F0358EA282D489900436AF6 /* ProfileViewController.swift in Sources */,
+				4F11BF09283A392A00E8A7C6 /* EventCalendarTableViewCell.swift in Sources */,
+				4FB4682B283543EA005BE3F1 /* CalendarViewController.swift in Sources */,
+				4F11BF06283A373F00E8A7C6 /* EventViewController.swift in Sources */,
 				4F432437282D3E0A0010920A /* AppDelegate.swift in Sources */,
 				4F0358EC282D48B300436AF6 /* ToDoViewController.swift in Sources */,
+				4FB4682D283549CB005BE3F1 /* ViewController.swift in Sources */,
+				4F77B9A828377FDD0007A03B /* CalendarExtention.swift in Sources */,
 				4F432439282D3E0A0010920A /* SceneDelegate.swift in Sources */,
 				4F47CDE5283155B3001B4161 /* HomeViewController.swift in Sources */,
 				4F47CDDF28310BFB001B4161 /* NewsDetailViewController.swift in Sources */,
@@ -439,6 +459,7 @@
 				DEVELOPMENT_TEAM = MG6697FX3H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoORN/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "カレンダーのアクセス許可を頂きたいです。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -468,6 +489,7 @@
 				DEVELOPMENT_TEAM = MG6697FX3H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoORN/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "カレンダーのアクセス許可を頂きたいです。";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

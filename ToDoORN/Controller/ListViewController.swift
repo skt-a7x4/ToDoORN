@@ -8,7 +8,10 @@
 import UIKit
 
 class ListViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var DateText: UILabel!
+    
     @IBOutlet weak var ToDoText: UILabel!
     var TodoList = String()
     
@@ -16,6 +19,7 @@ class ListViewController: UIViewController {
         super.viewDidLoad()
 
         ToDoText.text = TodoList
+        DateText.text = Date().DateToString(format: "yyyy年M月d日(E)")
         
         // Do any additional setup after loading the view.
     }
