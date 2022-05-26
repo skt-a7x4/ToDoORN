@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0358EC282D48B300436AF6 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0358EB282D48B300436AF6 /* ToDoViewController.swift */; };
-		4F0358EE282D574700436AF6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0358ED282D574700436AF6 /* ListViewController.swift */; };
-		4F11BF06283A373F00E8A7C6 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11BF04283A373F00E8A7C6 /* EventViewController.swift */; };
-		4F11BF09283A392A00E8A7C6 /* EventCalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11BF08283A392A00E8A7C6 /* EventCalendarTableViewCell.swift */; };
 		4F432437282D3E0A0010920A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F432436282D3E0A0010920A /* AppDelegate.swift */; };
 		4F432439282D3E0A0010920A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F432438282D3E0A0010920A /* SceneDelegate.swift */; };
 		4F43243E282D3E0A0010920A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F43243C282D3E0A0010920A /* Main.storyboard */; };
@@ -21,8 +17,10 @@
 		4F47CDDF28310BFB001B4161 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */; };
 		4F47CDE128313705001B4161 /* NWModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDE028313705001B4161 /* NWModel.swift */; };
 		4F77B9A828377FDD0007A03B /* CalendarExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77B9A728377FDD0007A03B /* CalendarExtention.swift */; };
-		4F88C26328374D4F002A1541 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F88C26228374D4F002A1541 /* CalendarModel.swift */; };
-		4FB4682B283543EA005BE3F1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4682A283543EA005BE3F1 /* CalendarViewController.swift */; };
+		4F89F933283DE4A700F698C2 /* TodoORNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F932283DE4A700F698C2 /* TodoORNViewController.swift */; };
+		4F89F935283DE56D00F698C2 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F934283DE56D00F698C2 /* TodoModel.swift */; };
+		4F89F93B283DF8B200F698C2 /* TodoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F93A283DF8B200F698C2 /* TodoAddViewController.swift */; };
+		4F89F93D283DFB5300F698C2 /* TodoAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F93C283DFB5300F698C2 /* TodoAddModel.swift */; };
 		4FB4682D283549CB005BE3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4682C283549CA005BE3F1 /* ViewController.swift */; };
 		4FBA2F93282D73EB0060C7EA /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA2F8E282D73E80060C7EA /* 2.json */; };
 		4FBA2F94282D73EB0060C7EA /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA2F8F282D73E80060C7EA /* 4.json */; };
@@ -35,10 +33,6 @@
 
 /* Begin PBXFileReference section */
 		280D50BA3E90DD3BBAC5119C /* Pods_ToDoORN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoORN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0358EB282D48B300436AF6 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
-		4F0358ED282D574700436AF6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		4F11BF04283A373F00E8A7C6 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
-		4F11BF08283A392A00E8A7C6 /* EventCalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCalendarTableViewCell.swift; sourceTree = "<group>"; };
 		4F432433282D3E0A0010920A /* ToDoORN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoORN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F432436282D3E0A0010920A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F432438282D3E0A0010920A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,8 +45,11 @@
 		4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		4F47CDE028313705001B4161 /* NWModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWModel.swift; sourceTree = "<group>"; };
 		4F77B9A728377FDD0007A03B /* CalendarExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtention.swift; sourceTree = "<group>"; };
-		4F88C26228374D4F002A1541 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
-		4FB4682A283543EA005BE3F1 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		4F89F932283DE4A700F698C2 /* TodoORNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoORNViewController.swift; sourceTree = "<group>"; };
+		4F89F934283DE56D00F698C2 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		4F89F93A283DF8B200F698C2 /* TodoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddViewController.swift; sourceTree = "<group>"; };
+		4F89F93C283DFB5300F698C2 /* TodoAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddModel.swift; sourceTree = "<group>"; };
+		4F89F93E283F0A5D00F698C2 /* ToDoORN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToDoORN.entitlements; sourceTree = "<group>"; };
 		4FB4682C283549CA005BE3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FBA2F8E282D73E80060C7EA /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
 		4FBA2F8F282D73E80060C7EA /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
@@ -89,8 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				4F47CDE028313705001B4161 /* NWModel.swift */,
-				4F88C26228374D4F002A1541 /* CalendarModel.swift */,
 				4F77B9A728377FDD0007A03B /* CalendarExtention.swift */,
+				4F89F934283DE56D00F698C2 /* TodoModel.swift */,
+				4F89F93C283DFB5300F698C2 /* TodoAddModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,14 +96,11 @@
 		4F0358E8282D432400436AF6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4F0358EB282D48B300436AF6 /* ToDoViewController.swift */,
-				4F0358ED282D574700436AF6 /* ListViewController.swift */,
 				4F47CDDC28310BE0001B4161 /* NewsListViewController.swift */,
 				4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */,
-				4FB4682A283543EA005BE3F1 /* CalendarViewController.swift */,
 				4FB4682C283549CA005BE3F1 /* ViewController.swift */,
-				4F11BF04283A373F00E8A7C6 /* EventViewController.swift */,
-				4F11BF08283A392A00E8A7C6 /* EventCalendarTableViewCell.swift */,
+				4F89F932283DE4A700F698C2 /* TodoORNViewController.swift */,
+				4F89F93A283DF8B200F698C2 /* TodoAddViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +126,7 @@
 		4F432435282D3E0A0010920A /* ToDoORN */ = {
 			isa = PBXGroup;
 			children = (
+				4F89F93E283F0A5D00F698C2 /* ToDoORN.entitlements */,
 				4F0358E7282D431300436AF6 /* Model */,
 				4F432436282D3E0A0010920A /* AppDelegate.swift */,
 				4F432438282D3E0A0010920A /* SceneDelegate.swift */,
@@ -288,18 +284,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F47CDE128313705001B4161 /* NWModel.swift in Sources */,
+				4F89F935283DE56D00F698C2 /* TodoModel.swift in Sources */,
 				4F432441282D3E0A0010920A /* ToDoORN.xcdatamodeld in Sources */,
-				4F88C26328374D4F002A1541 /* CalendarModel.swift in Sources */,
-				4F11BF09283A392A00E8A7C6 /* EventCalendarTableViewCell.swift in Sources */,
-				4FB4682B283543EA005BE3F1 /* CalendarViewController.swift in Sources */,
-				4F11BF06283A373F00E8A7C6 /* EventViewController.swift in Sources */,
+				4F89F933283DE4A700F698C2 /* TodoORNViewController.swift in Sources */,
+				4F89F93B283DF8B200F698C2 /* TodoAddViewController.swift in Sources */,
 				4F432437282D3E0A0010920A /* AppDelegate.swift in Sources */,
-				4F0358EC282D48B300436AF6 /* ToDoViewController.swift in Sources */,
+				4F89F93D283DFB5300F698C2 /* TodoAddModel.swift in Sources */,
 				4FB4682D283549CB005BE3F1 /* ViewController.swift in Sources */,
 				4F77B9A828377FDD0007A03B /* CalendarExtention.swift in Sources */,
 				4F432439282D3E0A0010920A /* SceneDelegate.swift in Sources */,
 				4F47CDDF28310BFB001B4161 /* NewsDetailViewController.swift in Sources */,
-				4F0358EE282D574700436AF6 /* ListViewController.swift in Sources */,
 				4F47CDDD28310BE1001B4161 /* NewsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToDoORN/ToDoORN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MG6697FX3H;
@@ -476,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToDoORN/ToDoORN.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MG6697FX3H;

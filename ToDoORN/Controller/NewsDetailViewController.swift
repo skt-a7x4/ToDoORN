@@ -11,7 +11,6 @@ import WebKit
 class NewsDetailViewController: UIViewController,WKUIDelegate{
 
     
-    
     var link: String!
     
     @IBOutlet weak var WebView: WKWebView!
