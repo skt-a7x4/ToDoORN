@@ -33,6 +33,7 @@ class TodoAddViewController: UIViewController,UITextFieldDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = false
+        
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -58,6 +59,7 @@ class TodoAddViewController: UIViewController,UITextFieldDelegate {
     @IBAction func doneButton(_ sender: Any) {
         
         let item = TodoItem()
+        InfoHelper().save(title:TodoaddTextField.text!,date:datePicker.date)
         item.title = TodoaddTextField.text!
         item.date = datePicker.date
         item.id = String(Int.random(in: 0...9999))

@@ -16,7 +16,10 @@ class TodoORNViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     
     
+
     @IBOutlet weak var TodoTableView: UITableView!
+    @IBOutlet weak var titleText: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,13 +47,16 @@ class TodoORNViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") //cellはStep2で指定した文字列
-        cell?.textLabel?.text = itemList[indexPath.row].title
+        
+       cell?.textLabel?.text = itemList[indexPath.row].title
         let item = itemList[indexPath.row]
         cell?.selectionStyle = .none
         cell?.detailTextLabel?.text = InfoHelper().dateToString(date: item.date)
         cell?.imageView!.image = UIImage(named: "checkImage")
         return cell!
     }
+    
+   
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool{
         return true

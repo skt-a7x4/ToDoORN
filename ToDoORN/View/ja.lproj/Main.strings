@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "通知"; ObjectID = "CMl-8v-dQ1"; */
+"CMl-8v-dQ1.text" = "通知";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "HFR-OZ-ZCg"; */
+"HFR-OZ-ZCg.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "News"; ObjectID = "Oyw-Oz-nRd"; */
+"Oyw-Oz-nRd.title" = "News";
+
+/* Class = "UINavigationItem"; title = "TodoList"; ObjectID = "URr-Y6-uYE"; */
+"URr-Y6-uYE.title" = "TodoList";
+
+/* Class = "UITabBarItem"; title = "Todo"; ObjectID = "WBJ-4W-Emv"; */
+"WBJ-4W-Emv.title" = "Todo";
+
+/* Class = "UIButton"; configuration.title = "決定"; ObjectID = "cXx-KF-ALJ"; */
+"cXx-KF-ALJ.configuration.title" = "決定";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cXx-KF-ALJ"; */
+"cXx-KF-ALJ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "スキップ"; ObjectID = "e7m-ql-BkJ"; */
+"e7m-ql-BkJ.configuration.title" = "スキップ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "e7m-ql-BkJ"; */
+"e7m-ql-BkJ.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Todo追加"; ObjectID = "hhx-4G-ScQ"; */
+"hhx-4G-ScQ.title" = "Todo追加";
+
+/* Class = "UINavigationItem"; title = "今日のトピック"; ObjectID = "iMN-KB-qAJ"; */
+"iMN-KB-qAJ.title" = "今日のトピック";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "pyv-Ma-Fg0"; */
+"pyv-Ma-Fg0.text" = "Detail";
+
+/* Class = "UITextField"; placeholder = "タイトル"; ObjectID = "wSV-Dk-vex"; */
+"wSV-Dk-vex.placeholder" = "タイトル";
+
+/* Class = "UIButton"; configuration.title = "＋"; ObjectID = "xVO-Tv-NKU"; */
+"xVO-Tv-NKU.configuration.title" = "＋";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xVO-Tv-NKU"; */
+"xVO-Tv-NKU.normalTitle" = "Button";

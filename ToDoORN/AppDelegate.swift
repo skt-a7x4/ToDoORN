@@ -20,16 +20,49 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound,.badge]){
             (granted,error) in
             
+//            追加してみた処理
+            if granted {
+                
+                
+                DispatchQueue.main.async {
+                    application.registerForRemoteNotifications()
+                }
+                
+            }
+            
+            if error != nil{
+                
+               print(error)
+                
+                
+            }//ここまで
             
         }
         
         return true
     }
     
+//    ここも追加してみた処理
+    // デバイストークンの発行に成功
+        func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+            // iOS13からトークン文字列の取得方法が変更されています
+            let token = deviceToken.map { String(format: "%.2hhx", $0) }.joined()
+            print("Device token: \(token)")
+            
+        }//ここまで
+//    ここも追加
+    // バックグラウンドで通知を受け取った時
+       // 通知バナーをタップした時
+       func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+           // 通知内容（タイトルや本文など）を取得
+           print(response.notification.request.content.title)
+           print(response.notification.request.content.body)
+           completionHandler()
+       }
       
     
     func userNotificationCenter(_ center: UNUserNotificationCenter,willPresent notification: UNNotification,withCompletionHandler completionHandler:@escaping (UNNotificationPresentationOptions) -> Void) {
-            completionHandler([.banner,.sound])
+        completionHandler([.banner,.sound])
         }
 
     // MARK: UISceneSession Lifecycle

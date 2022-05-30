@@ -7,8 +7,6 @@
 
 import UIKit
 import Lottie
-import Firebase
-import FirebaseAuth
 import SnapKit
 
 
