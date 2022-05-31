@@ -36,6 +36,7 @@ class TodoORNViewController: UIViewController,UITableViewDelegate,UITableViewDat
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
     }
+//    リスト数を設定するメソッド
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemList.count
     }
@@ -45,11 +46,12 @@ class TodoORNViewController: UIViewController,UITableViewDelegate,UITableViewDat
             return view.frame.size.height/6
         }
     
+//    リストに表示するテキストを設定するメソッド
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") //cellはStep2で指定した文字列
-        
-       cell?.textLabel?.text = itemList[indexPath.row].title
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
         let item = itemList[indexPath.row]
+        
+        cell?.textLabel?.text = item.title
         cell?.selectionStyle = .none
         cell?.detailTextLabel?.text = InfoHelper().dateToString(date: item.date)
         cell?.imageView!.image = UIImage(named: "checkImage")

@@ -57,15 +57,8 @@ class TodoAddViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func doneButton(_ sender: Any) {
-        
-        let item = TodoItem()
         InfoHelper().save(title:TodoaddTextField.text!,date:datePicker.date)
-        item.title = TodoaddTextField.text!
-        item.date = datePicker.date
-        item.id = String(Int.random(in: 0...9999))
-        try! realm.write{
-            realm.add(item)
-        }
+        
         self.navigationController?.popViewController(animated: true)
     }
     
