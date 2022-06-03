@@ -16,7 +16,6 @@
 		4F47CDDD28310BE1001B4161 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDDC28310BE0001B4161 /* NewsListViewController.swift */; };
 		4F47CDDF28310BFB001B4161 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */; };
 		4F47CDE128313705001B4161 /* NWModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47CDE028313705001B4161 /* NWModel.swift */; };
-		4F77B9A828377FDD0007A03B /* CalendarExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77B9A728377FDD0007A03B /* CalendarExtention.swift */; };
 		4F89F933283DE4A700F698C2 /* TodoORNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F932283DE4A700F698C2 /* TodoORNViewController.swift */; };
 		4F89F935283DE56D00F698C2 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F934283DE56D00F698C2 /* TodoModel.swift */; };
 		4F89F93B283DF8B200F698C2 /* TodoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F89F93A283DF8B200F698C2 /* TodoAddViewController.swift */; };
@@ -44,7 +43,6 @@
 		4F47CDDC28310BE0001B4161 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		4F47CDDE28310BFB001B4161 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		4F47CDE028313705001B4161 /* NWModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWModel.swift; sourceTree = "<group>"; };
-		4F77B9A728377FDD0007A03B /* CalendarExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtention.swift; sourceTree = "<group>"; };
 		4F89F932283DE4A700F698C2 /* TodoORNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoORNViewController.swift; sourceTree = "<group>"; };
 		4F89F934283DE56D00F698C2 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		4F89F93A283DF8B200F698C2 /* TodoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				4F47CDE028313705001B4161 /* NWModel.swift */,
-				4F77B9A728377FDD0007A03B /* CalendarExtention.swift */,
 				4F89F934283DE56D00F698C2 /* TodoModel.swift */,
 				4F89F93C283DFB5300F698C2 /* TodoAddModel.swift */,
 			);
@@ -294,7 +291,6 @@
 				4F432437282D3E0A0010920A /* AppDelegate.swift in Sources */,
 				4F89F93D283DFB5300F698C2 /* TodoAddModel.swift in Sources */,
 				4FB4682D283549CB005BE3F1 /* ViewController.swift in Sources */,
-				4F77B9A828377FDD0007A03B /* CalendarExtention.swift in Sources */,
 				4F432439282D3E0A0010920A /* SceneDelegate.swift in Sources */,
 				4F47CDDF28310BFB001B4161 /* NewsDetailViewController.swift in Sources */,
 				4F47CDDD28310BE1001B4161 /* NewsListViewController.swift in Sources */,

@@ -42,12 +42,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         
         self.navigationController?.isNavigationBarHidden = true
         
-        //        登録がなかったらプロフィール作成画面へあればそのまま次へ
-        //        if Auth.auth().currentUser!.uid != nil {
-        //
-        //            performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
-        //
-        //        }
+       
         
     }
     
